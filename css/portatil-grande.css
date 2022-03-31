@@ -1,0 +1,130 @@
+@media screen and (min-width: 1400px) {
+    .hero {
+        margin-left: 10rem;
+    }
+    
+    .hero__title {
+        font-size: 12rem;
+    }
+
+    .hero__description {
+        font-size: 2.7rem;
+    }
+
+    .hero__icons .fab{
+        width: 5.5rem;
+        height: 5.5rem;
+        line-height: 5.5rem;
+        font-size: 2rem;
+    }
+
+
+    /* ---------------------------------------------------------------------------------------------------------------------*/
+    /* MENU */
+    .enlaces {
+        top: 1rem;
+    }
+
+    .enlaces a {
+        font-size: 1.65rem   ;
+    }
+
+    .enlaces li {
+        padding: 3rem;
+    }
+
+    .enlaces li:hover a{
+        font-size: 1.65rem;
+        font-weight: 300;
+        color: var(--blanco);
+        border-bottom: 5px solid var(--verde-1);
+    }
+
+
+    /* ------------------------------------------------------------------------------------------------------------------- */
+    /* SECTION 1 */
+    .section__subtitle {
+        margin: 4rem 0 0 0;
+        font-size: 1.5rem;
+        border-bottom: 2px solid var(--fondo2);
+    }
+
+    .section__title {
+        margin-bottom: 6rem;
+        font-family: 3.5rem;
+    }
+
+    .section1__about {
+        width: 60vw;
+    }
+
+    .about__description {
+        padding: 3rem 4rem 0 0;
+        font-size: 2rem;
+    }
+
+    .about__intereses-title {
+        margin-top: 8rem;
+        font-size: 4rem;
+    }
+
+    .about__intereses-habilidades .number {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .about__intereses-habilidades .habilidad {
+        margin: 0 0 2rem 0;
+        font-size: 2rem;
+    }
+
+    .section1__about .button {
+        width: 12rem;
+        height: 2rem;
+        line-height: 2rem;
+        margin: 3rem auto;
+        padding: 1rem 2rem;
+    
+    }
+    
+    .section1__about .button a {
+        padding-right: 1rem;
+        font-size: 1.6rem;
+    }
+    
+    .section1__about .button i {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .section1__picture-container {
+        width: 40vw;
+    }
+
+    .picture {
+        width: 32vw;
+        object-fit: cover;
+        height: 100%;
+    }
+
+
+    /* ------------------------------------------------------------------------------------------------------------------- */
+    /* SECTION 2 */
+    .cards__container {
+        grid-auto-rows: 35rem;
+        gap: 1.5rem;
+    }
+
+    .card__item i {
+        font-size: 7rem;
+    }
+    
+    .card__title {
+        font-size: 2.8rem;
+    }
+    
+    .card__description {
+        font-size: 1.7rem;
+    }
+
+}
